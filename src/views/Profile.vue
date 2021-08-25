@@ -1,6 +1,6 @@
 <template>
   <main>
-    <h1>Profile</h1>
+    <h2>Profile</h2>
     <p>
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex tenetur qui
       eaque velit aliquam consequuntur necessitatibus quasi amet soluta

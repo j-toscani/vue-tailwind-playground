@@ -1,12 +1,27 @@
 <template>
   <main>
-    <h1>About</h1>
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex tenetur qui
-      eaque velit aliquam consequuntur necessitatibus quasi amet soluta
-      doloremque. Totam provident aperiam nemo assumenda eos facere adipisci
-      animi numquam!
-    </p>
+    <h2>About</h2>
+    <article>
+      <div class="p-wrapper">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex tenetur
+          qui eaque velit aliquam consequuntur necessitatibus quasi amet soluta
+          doloremque. Totam provident aperiam nemo assumenda eos facere adipisci
+          animi numquam!
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex tenetur
+          qui eaque velit aliquam consequuntur necessitatibus quasi amet soluta
+          doloremque. Totam provident aperiam nemo assumenda eos facere adipisci
+          animi numquam! Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Voluptatem, libero consequatur! Nobis nesciunt accusantium iure
+          labore eius molestiae repellat a officia voluptate quae reprehenderit
+          earum dolorem, fugit autem, itaque dolor.
+        </p>
+        <p>Lorem ipsum, dolor sit amet.</p>
+      </div>
+      <img src="https://picsum.photos/600/900" alt="" />
+    </article>
   </main>
 </template>
 
@@ -18,4 +33,19 @@ export default defineComponent({
 });
 </script>
 
-<style></style>
+<style lang="postcss">
+article {
+  @apply flex flex-row align-middle flex-wrap;
+}
+
+.p-wrapper {
+  @apply md:w-2/3;
+}
+p {
+  @apply my-4;
+}
+
+img {
+  @apply md:w-1/3;
+}
+</style>
